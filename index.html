@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars" ></i>
+            </label>
+            <button id="popup" type="button" onclick="div_show()">ثبت نام</button>
+            <a href="http://kanishkkunal.in" 
+  target="popup" 
+  onclick="window.open('login.html','popup','width=600,height=600'); return false;">
+    Open Link in Popup
+</a>
+
+            <ul class="main-nav__items"> 
+                <li class="main-nav__item">
+                    <a href="#">تماس با ما</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">درباره ما</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">آموزش</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">موبایل</a>
+                </li>
+                <li class="main-nav__item">
+                    <a class="active" href="#">خانه</a>
+                </li>
+            </ul>
+    </nav>
+        <section>
+            <div class="text-block">
+                <h4>Nature</h4>
+                <p>What a beautiful sunrise</p>
+              </div>
+        </section>
+        <div  class=“button-container”>
+            <img id="image" src="img/jjj.jpg">
+               
+            <div >
+                <button class="btn" onclick="myFunction()">Click Me</button>
+            </div>
+        </div>
+       
+    <script src="myScript.js"></script>
+</body>
+</html>
